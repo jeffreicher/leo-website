@@ -8,7 +8,7 @@ body {
   font-size: 18px;
   height: 1200px;
   font-family: sans-serif;
-  color: #5D6063;;
+  color: #000;
 }
 
 nav {
@@ -21,7 +21,7 @@ nav {
 
 a:link,
 a:visited {
-  color: #5D6063;
+  color: #000;
   text-decoration: none;
 }
 a:hover {
@@ -31,7 +31,7 @@ a:hover {
 .dropdown-logo:hover .dropdown-menu {
   display: flex;
   flex-direction: column;
-  background-color: #FFFFFF;
+  background-color: #FFF;
   border-radius: 5px;
 
   position: absolute;
@@ -52,10 +52,15 @@ a:hover {
   background-color: transparent;
 }
 
-.leochau {
+.name-container {
   display: flex;
   justify-content: center;
-  padding: 70px 0 70px 0;
+  padding: 70px 0 90px 0;
+}
+
+.leochau {
+  border: 5px solid #000;
+  padding: 10px;
 }
 
 h1 {
@@ -66,6 +71,11 @@ h1 {
   max-width: 1000px;
   position: relative;
   margin: auto;
+}
+
+.photo-dot-button {
+  text-align: center;
+  padding: 40px;
 }
 
 .mySlides {
@@ -81,7 +91,7 @@ h1 {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
+  margin-top: -75px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -100,21 +110,12 @@ h1 {
 }
 
 .text {
-  color: #f2f2f2;
+  color: #000;
   font-size: 15px;
-  padding: 8px 12px;
   position: absolute;
-  bottom: 20px;
+  bottom: 65px;
   width: 100%;
   text-align: center;
-}
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
 }
 
 .dot {
@@ -135,18 +136,26 @@ h1 {
 h2 {
   display: flex;
   justify-content: center;
-  padding: 30px;
+  padding: 30px 0 10px 0;
+  text-decoration: underline;
 }
 
 footer {
   width: 100%;
-  padding: 40px;
+  padding: 80px 0 20px 0;
 }
 
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-style: italic;
+}
 .social {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 8px;
 
 }
 
